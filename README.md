@@ -49,7 +49,3 @@ Welcome to the Yelp Data Analysis project by Team 01! This project aims to provi
 
 ## Acknowledgments
 We would like to express our gratitude to the developers and contributors of the libraries and tools used in this project, including Streamlit, Plotly, Pandas, and more.
-
----
-
-Feel free to customize the README.md further based on your project's specific details and requirements. Let me know if you need any further assistance!
