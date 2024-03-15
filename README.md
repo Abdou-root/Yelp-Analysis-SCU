@@ -23,6 +23,9 @@ Welcome to the Yelp Data Analysis project by Team 01! This project aims to provi
 
 ## Technologies Used
 * Python
+* Hadoop
+* Hive
+* Zeppelin
 * Streamlit
 * Pandas
 * Plotly
