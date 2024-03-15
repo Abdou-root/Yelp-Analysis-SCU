@@ -1,0 +1,638 @@
+﻿city,City counts
+Philadelphia,1730
+Tampa,848
+Indianapolis,827
+Tucson,742
+Edmonton,693
+Nashville,660
+New Orleans,602
+Saint Louis,528
+Reno,366
+Boise,230
+Santa Barbara,226
+Clearwater,205
+Wilmington,200
+Metairie,168
+St. Louis,145
+Franklin,119
+Saint Petersburg,118
+St. Petersburg,117
+Sparks,105
+Brandon,94
+Meridian,90
+Cherry Hill,86
+Kenner,85
+West Chester,84
+Largo,84
+Goleta,75
+Trenton,70
+New Port Richey,65
+Dunedin,63
+Greenwood,61
+Palm Harbor,61
+Carmel,60
+Norristown,60
+Bensalem,56
+Lutz,54
+Riverview,54
+Florissant,52
+Spring Hill,52
+Phoenixville,51
+Pottstown,49
+Exton,49
+Brentwood,49
+Hendersonville,49
+Fishers,48
+Pinellas Park,48
+King of Prussia,48
+Sherwood Park,47
+Wesley Chapel,47
+Belleville,46
+Newark,44
+Gretna,43
+Lansdale,43
+Ardmore,42
+Tarpon Springs,42
+Springfield,42
+Doylestown,42
+Seminole,41
+Plant City,40
+Marlton,40
+Smyrna,40
+Media,39
+Upper Darby,37
+Carpinteria,37
+New Castle,37
+Wayne,37
+Edwardsville,36
+Newtown,36
+North Wales,35
+Port Richey,35
+Harvey,34
+Levittown,34
+Mount Juliet,34
+Hudson,33
+Plainfield,33
+St Louis,33
+Hermitage,33
+Bryn Mawr,33
+Oldsmar,32
+Fenton,32
+Warminster,30
+Southampton,30
+Bridgeton,30
+Madison,30
+Avon,30
+Langhorne,30
+Antioch,29
+St Petersburg,29
+Voorhees,29
+Burlington,28
+Kennett Square,28
+Downingtown,27
+Mount Laurel,27
+Alton,27
+Ambler,26
+Willow Grove,26
+Sewell,26
+Conshohocken,25
+Arnold,25
+New Hope,25
+Marrero,25
+Sicklerville,24
+Saint Charles,24
+Harahan,24
+Royersford,24
+Fairview Heights,24
+Brownsburg,24
+Temple Terrace,24
+University City,24
+St. Pete Beach,23
+Clayton,23
+Collegeville,23
+Blue Bell,23
+Kirkwood,23
+Malvern,22
+Drexel Hill,21
+Collingswood,21
+Clearwater Beach,21
+Maryland Heights,21
+Abington,20
+Chalmette,20
+Ballwin,20
+Moorestown,20
+Aston,20
+Zephyrhills,20
+Oro Valley,20
+Eagle,20
+Goodlettsville,20
+Lambertville,20
+Ruskin,19
+Collinsville,19
+Huntingdon Valley,19
+Berwyn,19
+Woodbury,19
+Folsom,19
+Havertown,19
+Medford,18
+Glassboro,18
+Glen Mills,18
+Jenkintown,18
+Camden,18
+Newtown Square,18
+Gallatin,17
+O'Fallon,17
+Des Peres,17
+Hazelwood,17
+Morrisville,16
+Elkins Park,16
+Haddonfield,16
+Blackwood,16
+La Vergne,16
+Mooresville,16
+Williamstown,16
+Yardley,15
+Bristol,15
+Clifton Heights,15
+Clementon,15
+Horsham,15
+Zionsville,15
+Audubon,15
+Chalfont,15
+Paoli,15
+Mount Holly,14
+Isla Vista,14
+Valrico,14
+Perkasie,14
+Brookhaven,14
+Granite City,14
+Holiday,14
+Pennsauken,13
+Odessa,13
+Hatboro,13
+Garden City,13
+Apollo Beach,13
+Maple Shade,13
+St. Charles,13
+Creve Coeur,13
+Land O' Lakes,13
+Pennsville,13
+Lansdowne,13
+Webster Groves,13
+Chesterfield,13
+Gulfport,13
+Maplewood,13
+Pitman,13
+Deptford,13
+Cinnaminson,12
+Harleysville,12
+White House,12
+Tampa Bay,12
+Safety Harbor,12
+Chadds Ford,12
+Valley Park,12
+Glenside,12
+Bala Cynwyd,12
+Claymont,12
+Warrington,12
+Nolensville,11
+Broomall,11
+Hatfield,11
+Narberth,11
+East Norriton,11
+Marana,11
+Wood River,11
+Fairless Hills,11
+Richboro,11
+Old Hickory,11
+Hockessin,11
+Seffner,11
+Swarthmore,10
+Souderton,10
+Troy,10
+Plymouth Meeting,10
+Waterloo,10
+Willingboro,10
+Merchantville,10
+Berlin,10
+Lindenwold,10
+St Albert,9
+Delran,9
+Ewing Township,9
+O Fallon,9
+Ashland City,9
+Boothwyn,9
+Ferguson,9
+Chester Springs,9
+Prospect Park,9
+Feasterville Trevose,9
+Bordentown,9
+Chester,9
+Treasure Island,9
+Columbia,9
+Jefferson,9
+Montecito,8
+St Pete Beach,8
+Ewing,8
+Swansea,8
+High Ridge,8
+St. Albert,8
+King Of Prussia,8
+Terrytown,8
+Runnemede,8
+Sahuarita,8
+Whitestown,8
+Lumberton,8
+Speedway,8
+Madeira Beach,8
+Bridgeport,7
+Montgomeryville,7
+Manchester,7
+Saint Ann,7
+Voorhees Township,7
+Richmond Heights,7
+Sellersville,7
+Limerick,7
+Maple Glen,7
+Somerdale,7
+Pleasant View,7
+Haddon Township,7
+Gilbertsville,7
+Woodlyn,7
+Wynnewood,7
+Wyncote,7
+Swedesboro,7
+Gloucester City,7
+St Charles,7
+Riverside,7
+Telford,7
+Dresher,7
+Mt. Juliet,7
+Glenolden,7
+Turnersville,7
+Quakertown,6
+Trinity,6
+Lafayette Hill,6
+Thorndale,6
+Flourtown,6
+Essington,6
+Haddon Heights,6
+Kenneth City,6
+Pennsburg,6
+East Saint Louis,6
+Westmont,6
+Sappington,6
+Land O Lakes,6
+Bellmawr,6
+Westwego,6
+Skippack,6
+Cahokia,6
+South Pasadena,6
+Ridley Park,6
+Hainesport,6
+Belle Chasse,6
+Croydon,6
+Lebanon,6
+Trevose,6
+Holmes,6
+Mount Ephraim,6
+Mt Juliet,5
+Avondale,5
+Oaks,5
+Vail,5
+Penns Grove,5
+Lahaska,5
+Westville,5
+Imperial,5
+Olivette,5
+Lithia,5
+Deptford Township,5
+Feasterville-Trevose,5
+Overland,5
+West Deptford,5
+Oreland,5
+Frazer,5
+Mascoutah,5
+Verdi,5
+Glendora,5
+Villanova,5
+Arabi,5
+Boyertown,5
+Schwenksville,5
+Folcroft,5
+McCordsville,5
+River Ridge,5
+Belleair Bluffs,5
+Stratford,5
+Darby,5
+Camby,5
+Saint Pete Beach,4
+Paulsboro,4
+Shiloh,4
+Catalina,4
+Sun City Center,4
+Cheltenham,4
+Woodbury Heights,4
+Upper Chichester,4
+West Berlin,4
+Pennsauken Township,4
+Bellevue,4
+Woodstown,4
+Morton,4
+Spring City,4
+Devon,4
+Brooklawn,4
+Redington Shores,4
+Garnet Valley,4
+Marcus Hook,4
+Beech Grove,4
+Tuscon,4
+Millstadt,4
+Merion Station,4
+Greenbrier,4
+Lawnside,4
+Oaklyn,4
+East Alton,4
+Noblesville,4
+New Palestine,4
+Barrington,4
+Mantua,4
+Caseyville,4
+Frontenac,4
+Buckingham,4
+Lawrence,4
+Tierra Verde,4
+Normandy,4
+Yeadon,3
+Coatesville,3
+Saint Rose,3
+San Antonio,3
+Gibsonton,3
+Summerland,3
+Secane,3
+Spring House,3
+Maryville,3
+Joelton,3
+Jennings,3
+Saint Albert,3
+Hamilton,3
+Dover,3
+Evesham Township,3
+Pipersville,3
+St.Louis,3
+North Redington Beach,3
+St.Petersburg,3
+Eddystone,3
+Jamison,3
+Earth City,3
+Pine Hill,3
+Indian Rocks Beach,3
+Newfield,3
+Primos,3
+Gibbstown,3
+Thorofare,3
+TAMPA,3
+Trooper,3
+Feasterville,3
+Green Valley,3
+Glen Carbon,3
+Mullica Hill,3
+Pemberton,3
+Harrison Township,3
+Radnor,3
+Roslyn,3
+Pennsylvania,2
+Logan Township,2
+Sharon Hill,2
+Maple Shade Township,2
+Gloucester Township,2
+Penndel,2
+Fairview Village,2
+Fort Washington,2
+Mt. Laurel,2
+Luling,2
+Danville,2
+Carneys Point,2
+Glenmoore,2
+Franklinville,2
+Wyndmoor,2
+Godfrey,2
+Plumsteadville,2
+East St Louis,2
+Colmar,2
+Greenville,2
+Sun Valley,2
+Kulpsville,2
+Willingboro Township,2
+Indian Shores,2
+Bethalto,2
+Boise City,2
+Columbus,2
+Beverly,2
+Palmyra,2
+philadelphia,2
+Pontoon Beach,2
+Hamilton Township,2
+St. Ann,2
+Dade City,2
+Scott Air Force Base,2
+Collingdale,2
+Hammonton,2
+Cedars,2
+Cedar Brook,2
+Crum Lynne,2
+Thonotosassa,2
+Magnolia,2
+Holland,2
+Wimauma,2
+Town and Country,2
+Salem,2
+Atco,2
+Mt Laurel,2
+Eagleville,2
+Gibbsboro,2
+Berkeley,2
+Warson Woods,2
+Spanish Springs,2
+Rock Hill,2
+Florence Township,2
+Nashville-Davidson metropolitan government (balance),2
+Truckee,1
+Worcester,1
+Westampton,1
+St.  Charles,1
+Ivyland,1
+wimauma,1
+Chesterbrook,1
+Feasterville-trevose,1
+Erial,1
+ST. PETERSBURG,1
+Hilltown,1
+Tampa Palms,1
+Lower Southampton Township,1
+Berry Hill,1
+Town and Country ,1
+Clarksville,1
+St Louis County,1
+Talleyville,1
+Mt.Juliet,1
+Picture Rocks,1
+Medford Lakes,1
+Sherwood,1
+Palm harbor,1
+Breckenridge Hills,1
+Santa  Barbara,1
+St.Rose,1
+Lutz fl,1
+Christiana,1
+Carversville,1
+Kuna,1
+TRINITY,1
+Kimberton,1
+Greater Northdale,1
+Dublin,1
+Hillsborough County,1
+Tabernacle,1
+Montgomery,1
+Linfield,1
+Woolwich Township,1
+Elmer,1
+Flanders,1
+Moorestown-Lenola,1
+Fairview Hts.,1
+St. Peters,1
+Bellville,1
+Oldmans Township,1
+Whiteland,1
+RADNOR,1
+Palmetto,1
+O' Fallon,1
+Blvd,1
+St. Rose,1
+Linwood,1
+Vincentown,1
+Bensalem. Pa,1
+Rockledge,1
+Haverford,1
+Winchester,1
+Norwood,1
+Goodletsville,1
+Sanatoga,1
+Haddon Twp,1
+South Tucson,1
+DONELSON,1
+Riverton,1
+Violet,1
+Washington Township,1
+Lionville,1
+East Greenville,1
+Perkiomenville,1
+Hancock,1
+Concordville,1
+Scott Afb,1
+Hulmeville,1
+Abington Township,1
+Holland Southampton,1
+Southeast Edmonton,1
+Concord Township,1
+N.Wales,1
+Wilmington Manor,1
+Laurel Springs,1
+Conshohoeken,1
+Hernando Beach,1
+Chichester,1
+Woolwich Twp,1
+Furlong,1
+Malaga,1
+Newtown Sqaure,1
+POTTSTOWN,1
+National Park,1
+TUCSON,1
+Saint Petersburg Beach,1
+NW Edmonton,1
+Freeburg,1
+Wrightstown,1
+Martinsville,1
+Zieglerville,1
+Burlington Township,1
+Mendenhall,1
+Downtown,1
+Drexel Heights,1
+Berlin Township,1
+Belle Meade,1
+N Redngtn Bch,1
+Upper Pittsgrove,1
+CLEARWATER,1
+New Whiteland,1
+West Bradford Township,1
+Washington Park,1
+Pennsville Township,1
+Upper Pottsgrove,1
+Hamiltion,1
+Tylersport,1
+Sunset Hills,1
+Hilltop,1
+Meraux,1
+Town & Country,1
+Affton,1
+Line Lexington,1
+Belleair Blf,1
+Bridge City,1
+Temple Terr,1
+Skippack Village,1
+Twn N Cntry,1
+Cheltenham Township,1
+East St. Louis,1
+Alloway,1
+Pilesgrove,1
+Rosemont,1
+Mont Clare,1
+Saint Leo,1
+West Trenton,1
+SPRINGHILL,1
+London Grove,1
+Sumneytown,1
+Montchanin,1
+Pinellas park,1
+Ridley,1
+Clarksboro,1
+Pittsgrove,1
+Kimmswick,1
+Gladwyne,1
+St.Ann,1
+"Mount Holly,",1
+East Lansdowne,1
+Delanco,1
+Castleton,1
+Milmont Park,1
+Sun City,1
+Monroe Township,1
+NORTH WALES,1
+PHILA,1
+Crestwood,1
+BOISE,1
+Philadelphia ,1
+Land O'Lakes,1
+Waterford Works,1
+Greenfield,1
+Land O'lakes,1
+Winslow Township,1
+Wenonah,1
+Parkside,1
+Eastampton,1
+Roebling,1
+Shamong,1
+Kalispell,1
+Bensalem Township,1
+Dupo,1
+Redington Shore,1
+Scott AFB,1
+Silverdale,1
+Holicong,1
+W Cherry Hill,1
+Trappe,1
+Philly,1
+Tren,1
+New Britain,1
+Beaumont,1
+LANSDALE,1
