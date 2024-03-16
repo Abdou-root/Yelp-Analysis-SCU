@@ -5,8 +5,9 @@ from PIL import Image
 from dbConnection import run_query
 import os
 
-st.markdown('<style>%s</style>' % open('styles.css').read(), unsafe_allow_html=True)
 
+st.set_page_config(page_title="Tastify", page_icon="🍔")
+st.markdown('<style>%s</style>' % open('styles.css').read(), unsafe_allow_html=True)
 
 # BULK Tables queries
 users_table = run_query("SELECT * FROM users LIMIT 20")
@@ -50,68 +51,18 @@ GROUP BY
          ELSE 'Regular User' END
 """)
 
-
-# TABLES BULK
-# df_users = pd.DataFrame(users_table)
-# st.write("Users Table head:")
-# st.dataframe(df_users)
-#
-# df_restaurant = pd.DataFrame(restaurant_table)
-# st.write("Restaurant Table head:")
-# st.dataframe(df_restaurant)
-#
-# df_review = pd.DataFrame(review_table)
-# st.write("Review Table head:")
-# st.dataframe(df_review)
-
-# df_franchizes = pd.DataFrame(distribution_of_franchizes)
-# st.write("Most Popular franchizes:")
-# st.dataframe(df_franchizes)
-
-
 # Streamlit Setup
 if __name__ == "__main__":
     st.sidebar.image("images/logo.png", use_column_width=True)
 
-    app_mode = st.sidebar.radio("", ["🏠 Home", "📊 Data Table", "🍽️ User Recommendation", "🍳 Business Recommendation", "📋 Review Analysis", "📌 About"])
+    app_mode = st.sidebar.radio("", ["🏠 Home", "🍽️ User Recommendation", "🍳 Business Recommendation", "📋 Review Analysis", "📊 Data Tables", "📌 About"])
 
     if app_mode == "🏠 Home":
-        st.title("Yelp Data Analysis by #Team 01")
-        st.title("Welcome to")
-        st.write("The ultimate solution for your dining dilemmas. Whether you're craving convenience or craving quality, our app has you covered. Discover nearby restaurants, explore top-rated eateries, or sift through the latest glowing reviews to find your perfect meal. If you're a business owner, we've got you covered too - we'll connect you with highly-rated users to help boost your exposure and bring more customers through your doors.")
+        st.markdown("<h1 style='text-align: center;'>Yelp Data Analysis by #Team 01</h1>", unsafe_allow_html=True)
+        st.markdown("<h2 style='text-align: center;'>Welcome to Tastify!</h2>", unsafe_allow_html=True)
+        st.markdown("<p style='text-align: center;'>Find nearby restaurants, explore top-rated eateries, and read reviews. If you're a business owner, we'll connect you with highly-rated users to boost exposure.</p>", unsafe_allow_html=True)
         # Add content for the home page
-
-    elif app_mode == "📊 Data Table":
-    st.title("Data Table")
-
-    # Display tables function
-    def display_tables():
-        # Display Users Table
-        st.subheader("Users Table")
-        df_users = pd.DataFrame(users_table)
-        st.write("First 20 rows:")
-        st.dataframe(df_users.head(20))
-
-        # Display Restaurant Table
-        st.subheader("Restaurant Table")
-        df_restaurant = pd.DataFrame(restaurant_table)
-        st.write("First 20 rows:")
-        st.dataframe(df_restaurant.head(20))
-
-        # Display Review Table
-        st.subheader("Review Table")
-        df_review = pd.DataFrame(review_table)
-        st.write("First 20 rows:")
-        st.dataframe(df_review.head(20))
-
-        # Display Most Popular Franchizes
-        st.subheader("Most Popular Franchizes")
-        df_franchizes = pd.DataFrame(distribution_of_franchizes)
-        st.write("First 20 rows:")
-        st.dataframe(df_franchizes.head(20))
-
-    # Call display_tables function
-    display_tables()
+        st.image("images/bg.jpg", use_column_width=True)
 
     elif app_mode == "🍽️ User Recommendation":
 
@@ -318,7 +269,50 @@ if __name__ == "__main__":
         for cuisine, recommendations in cuisine_recommendations.items():
             display_cuisine_recommendations(cuisine, recommendations)
 
+    elif app_mode == "📊 Data Tables":
+        st.title("Data Tables")
+        # Display tables function
+        def display_tables():
+            # Display Users Table
+            st.subheader("Users Table")
+            df_users = pd.DataFrame(users_table)
+            st.dataframe(df_users.head(20))
 
+            # Display Restaurant Table
+            st.subheader("Restaurant Table")
+            df_restaurant = pd.DataFrame(restaurant_table)
+            st.dataframe(df_restaurant.head(20))
+
+            # Display Review Table
+            st.subheader("Review Table")
+            df_review = pd.DataFrame(review_table)
+            st.dataframe(df_review.head(20))
+
+            # Display Most Popular Franchizes
+            st.subheader("Most Popular Franchizes")
+            df_franchizes = pd.DataFrame(distribution_of_franchizes)
+            st.dataframe(df_franchizes.head(20))
+
+            st.subheader("Elite Vs Regular Count Table")
+            EliteVsRegularCount_df_display = pd.DataFrame(EliteVsRegularCount_df)
+            st.dataframe(EliteVsRegularCount_df_display.head(20))
+
+            st.subheader("Top Stars Table")
+            df_top_stars_display = pd.DataFrame(df_top_stars)
+            st.dataframe(df_top_stars_display.head(20))
+
+            st.subheader("Top Fans Table")
+            df_top_fans_display = pd.DataFrame(df_top_fans)
+            st.dataframe(df_top_fans_display.head(20))
+
+            st.subheader("Top Per Cuisine Table")
+            df_top_per_cuisine_display = pd.DataFrame(df_top_per_cuisine)
+            st.dataframe(df_top_per_cuisine_display.head(20))
+
+
+
+        # Call display_tables function
+        display_tables()
     elif app_mode == "📌 About":
 
         st.title("📌 About")
